@@ -127,7 +127,79 @@
           </ul>
         </section>
 
-        <section class="reservation" id="reservation-section"></section>
+        <section
+          class="reservation reservation-background"
+          id="reservation-section"
+        >
+          <form class="reservation__form form">
+            <h2 class="reservation__title">Reservar una mesa</h2>
+            <fieldset class="reservation__input-content">
+              <label
+                for="name"
+                class="reservation__label reservation__label_direction_top"
+                >Nombre*</label
+              >
+              <input
+                type="text"
+                class="reservation__item reservation__item_el_name"
+                id="name"
+                name="name"
+                placeholder="Nombre Apellido"
+                required
+              />
+              <label for="number-diner" class="reservation__label"
+                >Número de comensales*</label
+              >
+              <input
+                type="number"
+                class="reservation__item reservation__item_el_number-diner"
+                id="number-diner"
+                name="number-diner"
+                placeholder="1-8"
+                required
+              />
+              <label for="dateTime-diner" class="reservation__label"
+                >Fecha y hora*</label
+              >
+              <input
+                type="datetime-local"
+                class="reservation__item reservation__item_el_dateTime-diner"
+                id="dateTime-diner"
+                name="dateTime-diner"
+                required
+              />
+              <label for="email-diner" class="reservation__label"
+                >Tu correo electrónico*</label
+              >
+              <input
+                type="email"
+                class="reservation__item reservation__item_el_email-diner"
+                id="email-diner"
+                name="email-diner"
+                placeholder="email@email.com"
+                required
+              />
+              <button class="reservation__booking-table" type="submit">
+                Reservar una mesa
+              </button>
+
+              <div class="reservation__checkbox-wrapper">
+                <input
+                  type="checkbox"
+                  id="terms"
+                  name="terms"
+                  class="reservation__terms"
+                  required
+                />
+                <label
+                  for="terms"
+                  class="reservation__label reservation__label_direction_terms"
+                  >Acepto los términos de uso</label
+                >
+              </div>
+            </fieldset>
+          </form>
+        </section>
         <section class="menu" id="menu-section"></section>
         <section class="about" id="about-section"></section>
       </main>
