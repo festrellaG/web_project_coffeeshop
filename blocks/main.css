@@ -1,0 +1,305 @@
+.recipes {
+  display: flex;
+  flex-direction: column;
+  min-height: 720px;
+  max-height: 800px;
+}
+
+.recipes-background {
+  background-image: url("../images/background_recipes.svg");
+  background-color: #0a2750;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.recipes__title {
+  max-width: 580px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #ffffff;
+  margin: 0;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+
+.recipes__subtitle {
+  max-width: 438px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 0;
+  margin-left: 80px;
+  margin-top: 24px;
+}
+
+.recipes__videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  padding: 0%;
+  margin: 0;
+  margin-top: 80px;
+  margin-bottom: 215px;
+}
+
+.video-item {
+  padding-right: 40px;
+}
+
+.video-item:last-of-type {
+  padding-right: 0;
+}
+
+.recipes__iframe {
+  width: 480px;
+  height: 273px;
+  /*border: 1px solid red;*/
+}
+
+.video-caption {
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 0;
+  margin-top: 24px;
+}
+
+/*****************************************************************/
+
+.reservation {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 944px; /*720px*/
+  max-height: 1200px; /*800px*/
+  position: relative;
+  box-sizing: border-box;
+}
+
+.reservation-background {
+  background-image: url("../images/background_reservation.svg");
+  background-color: #d9e7ff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reservation__content {
+}
+
+.form {
+  max-width: 385px;
+  font-family: "inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.reservation__form {
+  margin: 100px auto 120px;
+  /*border: 1px solid red;*/
+}
+
+.reservation__title {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-bottom: 0px;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.reservation__input-content {
+  height: 592px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-top: 80px;
+  border: 0;
+}
+
+.reservation__label {
+  margin-top: 32px;
+}
+
+.reservation__item {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+  border-radius: 4px;
+  height: 60px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  width: 100%;
+  padding: 15px 20px;
+}
+
+.reservation__item_el_name {
+}
+
+.reservation__booking-table {
+  border-radius: 4px;
+  opacity: 1;
+  height: 60px;
+  color: #ffffff;
+  background-color: #2f80ed;
+}
+
+.reservation__booking-table:hover {
+  opacity: 0.7;
+}
+
+.reservation__label_direction_top {
+  margin-top: 0;
+}
+
+.reservation__item_el_number-diner {
+}
+
+.reservation__booking-table {
+  margin-top: 32px;
+}
+
+.reservation__checkbox-wrapper {
+  margin-top: 32px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.reservation__label_direction_terms {
+  display: inline;
+  margin-left: 12px;
+  margin-top: 0px;
+  /*border: 1px solid red;*/
+}
+
+.reservation__terms {
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+}
+
+.reservation__terms:disabled + .reservation__label_direction_terms {
+  border: 1px solid gray;
+}
+
+/*****************************************************************/
+.menu {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 944px; /*944px*/ /*720px*/
+  max-height: 1200px; /*800px*/
+  position: relative;
+  box-sizing: border-box;
+}
+
+.menu-background {
+  background-image: url("../images/background_menu.svg");
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu__title {
+  max-width: 800px;
+  margin: 100px auto 24px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.menu__subtitle {
+  max-width: 800px;
+  margin: 0px auto 100px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.menu__cards {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  list-style-type: none;
+  padding-left: 0%;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  row-gap: 100px;
+  border: 1px solid red;
+  margin: 100px auto;
+}
+
+.menu__cards:last-child {
+  display: flex;
+  align-self: flex-end;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  border: 1px solid red;
+}
+
+.card__title {
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+
+.card__content {
+}
+
+.card__list {
+  padding-left: 0%;
+  list-style-type: none;
+}
+
+.card__list-item {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.card__list-item:first-of-type {
+  margin-top: 0px;
+}
+
+.card__list-item_el_name {
+  margin: 0;
+}
+
+.card__list-divider {
+  flex-grow: 1;
+  border-bottom: 1px solid grey;
+  display: block;
+}
+
+.card__list-item_el_price {
+  margin: 0;
+}
