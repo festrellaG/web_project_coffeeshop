@@ -1,0 +1,122 @@
+.reservation {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 944px; /*720px*/
+  max-height: 1200px; /*800px*/
+  position: relative;
+  box-sizing: border-box;
+}
+
+.reservation-background {
+  background-image: url("../images/background_reservation.svg");
+  background-color: #d9e7ff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reservation__content {
+}
+
+.form {
+  max-width: 385px;
+  font-family: "inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.reservation__form {
+  margin: 100px auto 120px;
+  /*border: 1px solid red;*/
+}
+
+.reservation__title {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-bottom: 0px;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.reservation__input-content {
+  height: 592px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-top: 80px;
+  border: 0;
+}
+
+.reservation__label {
+  margin-top: 32px;
+}
+
+.reservation__item {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+  border-radius: 4px;
+  height: 60px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  width: 100%;
+  padding: 15px 20px;
+}
+
+.reservation__item_el_name {
+}
+
+.reservation__booking-table {
+  border-radius: 4px;
+  opacity: 1;
+  height: 60px;
+  color: #ffffff;
+  background-color: #2f80ed;
+}
+
+.reservation__booking-table:hover {
+  opacity: 0.7;
+}
+
+.reservation__label_direction_top {
+  margin-top: 0;
+}
+
+.reservation__item_el_number-diner {
+}
+
+.reservation__booking-table {
+  margin-top: 32px;
+}
+
+.reservation__checkbox-wrapper {
+  margin-top: 32px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.reservation__label_direction_terms {
+  display: inline;
+  margin-left: 12px;
+  margin-top: 0px;
+  /*border: 1px solid red;*/
+}
+
+.reservation__terms {
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+}
+
+.reservation__terms:disabled + .reservation__label_direction_terms {
+  border: 1px solid gray;
+}
