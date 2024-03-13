@@ -1,3 +1,6 @@
+.content {
+}
+
 .recipes {
   display: flex;
   flex-direction: column;
