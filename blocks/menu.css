@@ -54,3 +54,48 @@
   align-self: flex-end;
   margin: auto;
 }
+
+.menu__card {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  /*border: 1px solid red;*/
+}
+
+.menu__card-title {
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+
+.menu__card-content {
+}
+
+.menu__card-list {
+  padding-left: 0%;
+  list-style-type: none;
+}
+
+.menu__card-list-item {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.menu__card-list-item:first-of-type {
+  margin-top: 0px;
+}
+
+.menu__card-list-item-desc_el_name {
+  margin: 0;
+}
+
+.menu__card-list-item-divider {
+  flex-grow: 1;
+  border-bottom: 1px solid grey;
+  display: block;
+}
+
+.menu__card-list-item-desc_el_price {
+  margin: 0;
+}
